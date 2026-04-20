@@ -10,6 +10,8 @@
     <Copyright>MIT License</Copyright>
     <PackageProjectUrl>https://github.com/avEggHead/Console.Color</PackageProjectUrl>
     <PackageIcon>package-icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/avEggHead/Console.Color</RepositoryUrl>
+    <PackageTags>console color;syle console;console text style;console fonts;</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
