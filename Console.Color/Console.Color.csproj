@@ -6,6 +6,17 @@
     <Nullable>enable</Nullable>
     <Title>Console.Color</Title>
     <Authors>avEggHead</Authors>
+    <Description>This is a helper package which makes it easy to add color and formatting to your console app text output.</Description>
+    <Copyright>MIT License</Copyright>
+    <PackageProjectUrl>https://github.com/avEggHead/Console.Color</PackageProjectUrl>
+    <PackageIcon>package-icon.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\package-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
