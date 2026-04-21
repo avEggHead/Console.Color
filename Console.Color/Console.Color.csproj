@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <!-- Build the XML file that contains the XML docs -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -11,11 +13,19 @@
     <PackageProjectUrl>https://github.com/avEggHead/Console.Color</PackageProjectUrl>
     <PackageIcon>package-icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/avEggHead/Console.Color</RepositoryUrl>
-    <PackageTags>console color;syle console;console text style;console fonts;</PackageTags>
+    <PackageTags>console color;style console;console text style;console fonts;fancy console; color console text; color console output; stylized console output; bold console; strikethrough console; highlight console text;</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <FileVersion>1.0.1</FileVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\package-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
