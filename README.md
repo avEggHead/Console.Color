@@ -65,7 +65,7 @@ Pull requests are welcome!
 
 Fork the repo.
 Create a feature branch.
-Run dotnet test.
+
 Submit a PR.
  License
 MIT – feel free to use it in any project, open source or commercial.
