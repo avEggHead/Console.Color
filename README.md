@@ -59,14 +59,8 @@ Both methods process the tags on the fly and automatically emit a reset sequence
 Question	Answer
 Does this work on Windows cmd?	Only on Windows 10+ terminals that support ANSI (e.g. Windows Terminal, ConEmu, PowerShell).
 Can I use it in a library?	Yes. The library is pure C# and has no external dependencies.
-What about .NET Core vs .NET Framework?	It targets .NET Standard 2.0+, so it works on .NET Core, .NET 5+, and .NET Framework 4.6.1+.
- Contributing
-Pull requests are welcome!
+What about .NET Core vs .NET Framework?	It targets the LTS .NET 8.0, so it works on newer projects. If your project is older than .NET 8 and you want support, send me an email and maybe I'll update it to support older projects.  clintonjavery@gmail.com
 
-Fork the repo.
-Create a feature branch.
-
-Submit a PR.
  License
 MIT – feel free to use it in any project, open source or commercial.
 
